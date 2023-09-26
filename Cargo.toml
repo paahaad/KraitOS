@@ -1,0 +1,18 @@
+[package]
+name = "kraios"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+# There are other use cases as well for which unwinding is undesirable, so Rust provides an option to abort on panic instead
+# For reference read this : https://os.phil-opp.com/freestanding-rust-binary/#the-eh-personality-language-item
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
