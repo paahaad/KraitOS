@@ -16,3 +16,8 @@ panic = "abort"
 
 [profile.release]
 panic = "abort"
+
+# bootimage that automatically prepends a bootloader to your kernel.
+
+[dependencies]
+bootloader = "0.9.8"
