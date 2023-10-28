@@ -16,7 +16,7 @@ KraitOS is a Rust-based operating system designed for performance and security. 
 
 To get started with KraitOS, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yourusername/KraitOS.git`
+1. Clone the repository: `git clone https://github.com/parvatraj2/KraitOS.git`
 2. Build the operating system: `cargo build`
 3. Run KraitOS in a virtual machine or on compatible hardware.
 
